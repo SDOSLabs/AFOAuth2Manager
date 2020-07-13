@@ -1,0 +1,29 @@
+PODS:
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFOAuth2Manager (3.0.0):
+    - AFNetworking/NSURLSession (~> 4.0)
+
+DEPENDENCIES:
+  - AFOAuth2Manager (from `./`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  AFOAuth2Manager:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AFOAuth2Manager: c084dc2f359e3c7d7bfbc738d49e63544e8e27e7
+
+PODFILE CHECKSUM: 8feca271cbc79394e6f410b6a62c8f8ca4558c1f
+
+COCOAPODS: 1.8.4
